@@ -1,12 +1,20 @@
 Twitter Sentimental Analysis
-						Name: -       Abhishek Negi
-						U. Roll No.: -  2012467
-						Section: -        C
+
+
+
+Name: -         Abhishek Negi
+U. Roll No.: -  2012467
+Section: -      C
+
+
+
 
 PROBLEM STATEMENT:-
   
 The objective of this task is to detect hate speech in tweets. For the sake of simplicity, 
 we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is to classify racist or sexist tweets from other tweets.
+
+
 
 
 
@@ -18,10 +26,15 @@ The evaluation metric for this practice problem is F1-Score.
 
 
 
+
+
 METHODOLOGY:-
   
 We will use machine learning techniques like Natural Language Processing to solve this problem problem, 
 we will preprocess the data with some standard technique of NLP and after that we will train our data.
+
+
+
 
 
 
@@ -31,6 +44,8 @@ The data has 3 columns id, label, and tweet. label is the binary target variable
 There are two files train and test, train data contain 3(id, label, tweet) column and 31962 rows and test data contain 2 column(id, tweet) and 49159 rows 
 Label are 0 and 1:
 0 means positive tweet and 1 means negative tweets. 
+
+
 
 
 
@@ -52,6 +67,8 @@ Building model using TF-IDF features
 
 
 
+
+
 HOW AND WHAT I DID:-
 
 Firstly, I learned basics of Machine learning from 2 courses namely: -
@@ -59,6 +76,7 @@ Firstly, I learned basics of Machine learning from 2 courses namely: -
 2.	Machine Learning (Udemy Course)
 Then I started Kaggle Machine Learning course to implement things practically.
 This project was part of that course which helped me a lot to complete this project with less difficulty and errors.
+
 
 
 
@@ -78,6 +96,7 @@ Pre-processing phase: -
 
 
 
+
 EDA: -
 
 EDA is done using worldcloud it is a NLP library.
@@ -88,6 +107,8 @@ Using worldcloud to do EDA on the things mentioned below: -
 •	Understanding the impact of Hashtags on tweets sentiment
 •	Extracting Features from Cleaned Tweets (To analyse a pre-processed data, it needs to be converted into features. 
 Depending upon the usage, text features can be constructed using assorted techniques – Bag-of-Words, TF-IDF, and Word Embeddings.)
+
+
 
 
 

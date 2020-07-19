@@ -1,11 +1,18 @@
 Predicting Who’s going to Survive on Titanic Dataset
-						Name: -       Abhishek Negi
-						U. Roll No.: -  2012467
-						Section: -        C
+
+
+
+Name: -         Abhishek Negi
+U. Roll No.: -  2012467
+Section: -      C
+
+
+
 
 PROBLEM STATEMENT:- 
  
 We will use the Titanic passenger’s data (Name, Age, Price of ticket, etc.) and      try to predict who will survive and who will die.
+
 
 
 
@@ -21,10 +28,12 @@ After the completion of the project I uploaded the output file on Kaggle which r
 
 
 
+
 METHODOLOGY:-  
 
 We will use machine learning techniques to solve a binary classification problem.
 Random forest classifier is the one which I felt the best one for this project.
+
 
 
 
@@ -37,6 +46,8 @@ test.csv does not have a "Survived" column.
 
 
 
+
+
 ALGORITHMS/TECHNIQUES:-
 
 In this project, Random Forrest (RF) will be implemented and the learning algorithms will be implemented by sklearn toolbox in this project.
@@ -44,6 +55,8 @@ RANDOM FORREST:-
 RF is an ensemble classifier, it fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve 
 the predictive accuracy and control over-fitting. sklearn provides a function called RandomForestClassifier(). 
 One typical tunable parameter is called ”n estimators”, which represents the number of trees in the forest.
+
+
 
 
 
@@ -61,9 +74,13 @@ And changed sex column to 0,1 male=0, female=1.
 
 
 
+
+
 EDA:-
 
 Some sort of EDA is done on the basis of survived people, their age, them on board location and ages are classified as class e.g: class1, class 2, class 3.
+
+
 
 
 
@@ -72,6 +89,7 @@ Model Fitting:-
 Random forest model was fitted on features_forest(which is basically our training set which contain 8 attributes. 
 And our training set was target which contain survived attribute.
 Than we printed our model score by invoking score method. We also used model_selection library of sklearn to calculate accuracy.
+
 
 
 

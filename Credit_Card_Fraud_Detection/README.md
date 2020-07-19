@@ -1,11 +1,15 @@
 CREDIT CARD FRAUD DETECTION
-						Name: -       Abhishek Negi
-						U. Roll No.: -  2012467
-						Section: -        C
+						
+Name: -          Abhishek Negi
+U. Roll No.: -   2012467
+Section: -       C
+
+
 
 PROBLEM STATEMENT:- 
  
 The challenge is to recognize fraudulent credit card transactions so that the customers of credit card companies are not charged for items that they did not purchase.
+
 
 
 
@@ -21,10 +25,12 @@ Our objective will be to correctly classify the minority class of fraudulent tra
 
 
 
+
 METHODOLOGY: -
   
 We will use Deep learning to solve this problem, we will pre-process the data with some standard technique to pre-process 
 imbalanced data and after that we will train our data.
+
 
 
 
@@ -43,10 +49,13 @@ Feature 'Class' is the response variable and it takes value 1 in case of fraud a
 
 
 
+
+
 ALGORITHMS/TECHNIQUES:-
 
 CNNs are powerful image processing, artificial intelligence (AI) that use deep learning to perform both generative and descriptive tasks, 
 often using machine vison that includes image and video recognition, along with recommender systems and natural language processing (NLP).
+
 
 
 
@@ -59,11 +68,13 @@ Then I learn about this project from various Kaggle notebooks.
 
 
 
+
 Pre-processing phase: -
 
 •Not much pre-processing was needed as the data was already clean but we divided the data set in two classes one frauds and other not fraud.
 •Made some new data frame for the ease to access data.
 •Extracted random entries of class-0 Total entries are 1.5* NO. of class-1 entries.
+
 
 
 
